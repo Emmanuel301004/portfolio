@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');   /* Change the font family as needed */
+body{
+    background-color: #070707;     /* Setting  the background color */
+    color: #fdfdfd;    /* Set the text color */
+    margin: 0;       /* Remove default margin */
+    padding: 0;
+    box-sizing: border-box;      /* Remove default padding */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+/* Hide scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+    display: none;
+}
+
+li,a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+/* Reset default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, button, input, textarea, iframe {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #070707;     /* Setting  the background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;    
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    z-index: 999; /* Ensure the header is above other content */
+}
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding-right: auto 2em;
+}
+
+.nav-links li {
+    margin-right: 2em;
+}
+
+/* Main styles */
+main {
+    padding: 1em;
+}
+
+/* Hero section styles */
+#hero-section {
+    background-color: #f0f0f0;
+    padding:  20em;
+    background-image: url(img/blur-close-up-code-computer.jpg);
+    background-size: cover;
+}
+
+/* About section styles */
+#about {
+    padding: 2em 0;
+}
+
+#about > div {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#about img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+/* Skills section styles */
+#skills {
+    padding: 2em 0;
+}
+
+section#codingSkills, section#designSkills {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+section#codingSkills div, section#designSkills div {
+    flex-basis: 45%;
+}
+
+/* Experience section styles */
+#experience {
+    padding: 2em 0;
+}
+
+#experience h2 {
+    margin-bottom: 1em;
+}
+
+#experience div {
+    margin-bottom: 1em;
+}
+
+/* Certificates section styles */
+#certificates {
+    padding: 2em 0;
+}
+
+.certificate {
+    margin-bottom: 1em;
+}
+
+.certificate img {
+    width: 100px;
+    height: auto;
+}
+
+/* Contact section styles */
+#contact {
+    padding: 2em 0;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 1em;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
